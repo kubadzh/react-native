@@ -20,6 +20,7 @@ function RenderItem(props) {
     if (props.isLoading) {
         return <Loading />;
     }
+    
     if (props.errMess) {
         return (
             <View>
