@@ -44,6 +44,8 @@ class Contact extends Component {
               
             </Card>
         </Animatable.View>
+                        
+
       </ScrollView>
     );
   }
